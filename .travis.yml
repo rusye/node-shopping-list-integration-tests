@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: fMafn1a/o2Sj+3r/49RLKkOPu8ArP1Xcal9r+AbBPl2yrsH5Ho/TwoVLWPAa8fT7sxbsChxxJLWHJnJiynUvJQBEYpZOkadoOhiwufbI02a9d7UfMj3YT3NNZOJHtKhck1a63vm/oKsiH4rnXEfT5dNXP5ZZ7x5+zcrmfW2jBJcuejGvLLRJmvkqgbmOSBuF/ttCbWZ44pfmE0sR9yhXAjXArwOZ8/W8mjCY+KycJC7BXblGTZys3hFa8HIN+I/8zj9YMcJpK9U/Z/Q2GuRf9ZZaDe/j/LtuG8dinclQ0qU14IwLAhjM8T7pf0IAhC1uL982YO1/wAE1gsW6vXk22O+e0knxuj80Z9WOlMUkXm8w4oKK9W3sL3LL40s2fGUNdvfx2nibl1JSogH0VyeTN3piYVh8/j6+Ucyzp5635/qKGG5znOC43R8JcUkU2QZQowBevnNsz1TRGFmrPaHhpwu1JMO7vAZaZWCK4Bcpniz7zUpmql4zZLqcJh0zsKd3QeO9g4eMOtKgk0zanI99lHCnwH9EUKd7yNYSQQbIsFtSvUDUP7iHkMT/KwKVS7Uhx0wq/bTRnBMgi7Hq/7+Z8m+aCalX+5RLYvAhSAcQ7+S7Wz58jmpp3Fo9jZAkdweDUbAYp93+SvDDswIJSbezg6Cam+PZepaGchSqn7IjYqI=
+  app: fast-island-27493
+  on:
+    repo: rusye/node-shopping-list-integration-tests
